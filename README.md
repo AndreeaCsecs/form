@@ -1,5 +1,3 @@
-# form
-
 # Ottonova Form Application
 
 This is a simple HTML form application designed to collect information from potential customers. It follows the Ottonova website design as a guideline and includes interactive elements and animations.
@@ -48,3 +46,55 @@ This application is designed to work on modern web browsers that support HTML5, 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+
+# Ottonova Formular-Anwendung
+
+Dies ist eine einfache HTML-Formular-Anwendung, die dazu dient, Informationen von potenziellen Kunden zu sammeln. Sie folgt dem Design der Ottonova-Website als Richtlinie und enthält interaktive Elemente und Animationen.
+
+## Anforderungen
+
+- Statische lokale Website, erstellt mit HTML, CSS und JavaScript.
+- Gut strukturierter und lesbarer Code.
+- Integrierte Validierung der Browser-Formulare.
+- Ansprechende Benutzeroberfläche (UI/UX) mit flüssigen Animationen.
+
+## Erste Schritte
+
+1. Klonen Sie das Repository oder laden Sie den Quellcode herunter.
+2. Öffnen Sie die Datei `index.html` in Ihrem bevorzugten Webbrowser.
+3. Füllen Sie das Formular mit Ihrem Namen, Ihrer E-Mail-Adresse, Ihrer Telefonnummer aus und wählen Sie Ihr Geschlecht.
+4. Senden Sie das Formular ab, indem Sie auf die Schaltfläche "Abschicken" klicken.
+5. Sie werden auf eine Bestätigungsseite weitergeleitet, auf der Sie eine Dankesnachricht sehen werden.
+
+## Dateistruktur
+
+- `index.html`: Die Haupt-HTML-Datei enthält das Formular und seine Elemente.
+- `second-page.html`: Die Bestätigungsseite mit einer Dankesnachricht.
+- `style.css`: Die CSS-Datei zur Gestaltung des Formulars und der Bestätigungsseite.
+- `script.js`: Die JavaScript-Datei zur Behandlung des Formularabsendens und der Weiterleitung.
+
+## Styling
+
+- Das Formular und die Bestätigungsseite sind mithilfe des Bootstrap-Frameworks gestaltet.
+- Benutzerdefinierte Stile werden in der Datei `style.css` definiert, um dem Ottonova-Design zu entsprechen.
+
+## Animation
+
+- Dem Hand-Emoji und dem Formular-Label wurden interaktive Animationen mit Hilfe von CSS-Keyframes hinzugefügt.
+- Das Hand-Emoji bewegt sich leicht, wenn die Geschlechtsschaltfläche angeklickt wird.
+- Das Formular-Label bewegt sich hin und her mit einem horizontalen Translations-Effekt.
+
+## Browser-Kompatibilität
+
+Diese Anwendung wurde entwickelt, um auf modernen Webbrowsern zu funktionieren, die HTML5, CSS3 und JavaScript unterstützen. Sie wurde auf folgenden Browsern getestet:
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+
+## Lizenz
+
+Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
+
