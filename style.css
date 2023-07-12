@@ -1,0 +1,123 @@
+body {
+  background-color: #9a9fb7 !important;
+}
+
+.card {
+  background-color: #f2f3f6 !important;
+  max-width: 900px;
+  min-height: 500px;
+  border-radius: 15px !important;
+}
+
+.card-title h5.title {
+  font-family: inherit;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #00104b;
+}
+
+.form-label {
+  font-family: inherit;
+  color: #00104b;
+  line-height: 1.25;
+}
+
+.avatar {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.card-questions {
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.first-questions {
+  background-color: #ffffff !important;
+  border-radius: 15px;
+}
+
+.other-questions {
+  background-color: #ffffff !important;
+  border-radius: 15px;
+}
+.form-control {
+  font-family: "Figtree", Avenir, Arial, sans-serif;
+  font-size: 16px;
+  color: #667093 !important;
+}
+
+.gender-button {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  gap: 0;
+}
+
+.waving-male-icon,
+.waving-female-icon {
+  display: none;
+}
+
+.text-end {
+  color: red;
+  font-family: "Figtree", Avenir, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 500px) {
+  .card-questions .row {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .card-questions .col {
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .first-questions,
+  .other-questions {
+    padding: 0;
+    margin: 0;
+  }
+
+  .card-title {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .card-title h5.title {
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .avatar {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .card {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card-body {
+    padding: 2rem;
+  }
+
+  #nameInput {
+    margin-bottom: 20px;
+  }
+
+  #phoneInput {
+    margin-bottom: 15px;
+  }
+}
