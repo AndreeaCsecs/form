@@ -103,8 +103,3 @@ This application is designed to work on modern web browsers that support HTML5, 
 This project is licensed under the [MIT License](LICENSE).
 
 
-
-## Lizenz
-
-Dieses Projekt steht unter der [MIT-Lizenz](LICENSE).
-
